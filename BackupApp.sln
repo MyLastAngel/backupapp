@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupApp", "BackupApp\BackupApp.csproj", "{97D19550-8C7B-409F-A2B9-7027C623CDD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D19550-8C7B-409F-A2B9-7027C623CDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D19550-8C7B-409F-A2B9-7027C623CDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D19550-8C7B-409F-A2B9-7027C623CDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D19550-8C7B-409F-A2B9-7027C623CDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5D2C528-7CA6-41E7-AD0F-48A8A8A968EE}
+	EndGlobalSection
+EndGlobal
