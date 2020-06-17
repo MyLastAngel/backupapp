@@ -1,4 +1,4 @@
-## Создает SQLLite DB
+### Создает SQLLite DB
 
 ```sql
 var sql = "CREATE TABLE IF NOT EXISTS DATA (" +
@@ -17,10 +17,13 @@ sql = "CREATE TABLE IF NOT EXISTS DATA_RECORD (" +
     ");";
 ```
     
-## БД хранится в папке директории 
-`string.Format(@"{0}\DB", Environment.CurrentDirectory);`
+### БД хранится в папке директории 
 
-## Защита заключается в том что пароль для шифра БД известен только создавшему БД
+```c#
+string.Format(@"{0}\DB", Environment.CurrentDirectory);
+```
+
+### Защита заключается в том что пароль для шифра БД известен только создавшему БД
 
 ```c#
 static string GetConnectionString(string pswd, bool isReadOnly)
